@@ -59,10 +59,10 @@ const SkillsSection: React.FC = () => {
   const softwareSkills = [
     { name: "MATLAB/Simulink", level: 90, color: "#2dd4bf", delay: 0.2 },
     { name: "Arduino", level: 95, color: "#4f46e5", delay: 0.3 },
-    { name: "SolidWorks", level: 88, color: "#2dd4bf", delay: 0.4 },
-    { name: "C/C++", level: 85, color: "#4f46e5", delay: 0.5 },
+    { name: "Catia", level: 88, color: "#2dd4bf", delay: 0.4 },
+    { name: "Hev, Electrical Vehicles", level: 85, color: "#4f46e5", delay: 0.5 },
     { name: "Python", level: 82, color: "#2dd4bf", delay: 0.6 },
-    { name: "LabVIEW", level: 78, color: "#4f46e5", delay: 0.7 },
+    { name: "Isis Proteus", level: 78, color: "#4f46e5", delay: 0.7 },
   ];
   
   return (
@@ -188,8 +188,8 @@ const SkillsSection: React.FC = () => {
           
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {[
-              "3D Printing", "IoT", "PCB Design", "SCADA", 
-              "Hydraulics", "Pneumatics", "Machine Learning", "Embedded Systems"
+              "3D Printing", "IoT", "PCB Design", "Matlab", 
+              "Automotive Control Systems", "HEV vehicles", "Machine Learning", "Embedded Systems"
             ].map((skill, index) => (
               <motion.div
                 key={skill}

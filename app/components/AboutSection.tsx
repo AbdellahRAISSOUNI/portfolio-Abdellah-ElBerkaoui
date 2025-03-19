@@ -110,7 +110,7 @@ const AboutSection: React.FC = () => {
                   </p>
                   
                   <p className="text-lg text-light/90">
-                    I'm particularly interested in <span className="text-primary-400 font-medium">robotics</span>, 
+                    I'm particularly interested in <span className="text-primary-400 font-medium">automotive industry</span>, 
                     <span className="text-primary-400 font-medium"> IoT applications</span>, and 
                     <span className="text-primary-400 font-medium"> smart manufacturing systems</span> - 
                     fields where mechatronics drives innovation and solves complex challenges.

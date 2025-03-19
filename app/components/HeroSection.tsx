@@ -46,10 +46,7 @@ const HeroSection: React.FC = () => {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.8 }}
               >
-                I'm a 4th year Mechatronics Engineering student at ENSA Tetouan, 
-                passionate about developing intelligent systems that bridge the 
-                physical and digital worlds. My focus is on creating innovative 
-                solutions using robotics, automation, and smart control systems.
+                I am a fourth-year Mechatronics Engineering student at ENSA Tetouan, passionate about the automotive industry. My focus is on automation, control systems, and vehicle technologies, including diesel, electric (EV), and hybrid electric vehicles (HEV). Through continuous learning and hands-on projects, I strive to contribute to the advancement of automotive performance, safety, and efficiency.
               </motion.p>
               
               <div className="flex flex-wrap gap-4">
@@ -87,7 +84,7 @@ const HeroSection: React.FC = () => {
               >
                 <p className="text-sm text-light/60 mb-3">Skilled with:</p>
                 <div className="flex flex-wrap gap-3">
-                  {['Arduino', 'CAD/CAM', 'PLC', 'Robotics', 'IoT', 'MATLAB'].map((tech, index) => (
+                  {['Arduino', 'CAD/CAM', 'PLC', 'Robotics', 'IoT', 'MATLAB', 'EMBEDDED SYSTEMS'].map((tech, index) => (
                     <motion.span
                       key={tech}
                       className="inline-block py-1 px-3 bg-dark/50 rounded-full text-xs text-light/80 border border-primary-800/50"

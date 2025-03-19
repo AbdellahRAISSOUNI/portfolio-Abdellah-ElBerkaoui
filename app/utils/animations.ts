@@ -57,58 +57,39 @@ export const animateRobot = (selector: string) => {
     .to(selector, { y: 0, duration: 1, ease: "power1.inOut" });
 };
 
-// Framer Motion variants
+// Fade in up animation - used in AnimatedHeader
 export const fadeInUp: Variants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { 
-    opacity: 1, 
+  hidden: {
+    opacity: 0,
+    y: 20,
+  },
+  visible: {
+    opacity: 1,
     y: 0,
-    transition: { duration: 0.5 }
-  }
+  },
 };
 
-export const staggerContainer: Variants = {
+// Draw line animation - used in AnimatedHeader
+export const drawLine: Variants = {
+  hidden: {
+    pathLength: 0,
+    opacity: 0,
+  },
+  visible: {
+    pathLength: 1,
+    opacity: 1,
+  },
+};
+
+// Simple container animation with stagger effect
+export const container: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.2
-    }
-  }
-};
-
-export const popIn: Variants = {
-  hidden: { scale: 0.8, opacity: 0 },
-  visible: { 
-    scale: 1, 
-    opacity: 1,
-    transition: { 
-      type: "spring", 
-      stiffness: 300,
-      damping: 10
-    }
-  }
-};
-
-export const drawLine: Variants = {
-  hidden: { pathLength: 0, opacity: 0 },
-  visible: { 
-    pathLength: 1, 
-    opacity: 1,
-    transition: { 
-      pathLength: { duration: 1.5, ease: "easeInOut" },
-      opacity: { duration: 0.01 }
-    }
-  }
-};
-
-export const rotateIn: Variants = {
-  hidden: { rotate: -180, opacity: 0 },
-  visible: { 
-    rotate: 0, 
-    opacity: 1,
-    transition: { duration: 0.8, ease: "easeOut" }
-  }
+      staggerChildren: 0.1,
+    },
+  },
 };
 
 /**
@@ -163,7 +144,7 @@ export const staggerElements = (
   fromVars: gsap.TweenVars,
   toVars: gsap.TweenVars,
   staggerAmount = 0.1,
-  staggerFrom: 'start' | 'end' | 'center' | 'edges' | 'random' | number[] = 'start'
+  staggerFrom: number | "start" | "end" | "center" | "edges" | "random" | [number, number] = "start"
 ) => {
   if (typeof window === 'undefined') return;
   

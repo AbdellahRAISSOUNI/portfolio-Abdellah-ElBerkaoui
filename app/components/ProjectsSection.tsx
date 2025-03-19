@@ -93,32 +93,32 @@ const ProjectsSection: React.FC = () => {
   
   const projects = [
     {
-      title: "Autonomous Mobile Robot",
-      description: "Designed and built an autonomous mobile robot with obstacle detection, path planning, and dynamic navigation capabilities. Utilized ROS, Arduino, and various sensors.",
+      title: "Freinage d’Urgence Automatisé (AEB)",
+      description: "Ce projet explore le système de Freinage d’Urgence Automatisé (AEB), une technologie clé pour réduire les accidents de la route. L’AEB utilise des capteurs (radars, caméras, lidars), des algorithmes avancés et des systèmes de freinage automatisés pour détecter les obstacles et appliquer les freins en cas de danger imminent. Le rapport analyse son fonctionnement, ses composants techniques, ses performances à travers des tests en laboratoire et simulations MATLAB, et met en évidence son rôle crucial dans la prévention des collisions frontales et la protection des usagers de la route.",
       tags: ["Robotics", "Arduino", "ROS", "Sensors"],
-      imageSrc: "/images/project1.jpg",
-      link: "#",
+      imageSrc: "/images/project1.jpeg",
+      link: "https://www.linkedin.com/posts/abdellah-elberkaoui-1a3493195_aeb-activity-7306434240315871233-RtBP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC3PrksBCkPrd9JsMGdDWh1DajEUF_w_Wkg",
       featured: true
     },
     {
       title: "Smart Home Automation System",
       description: "Developed a comprehensive home automation system with IoT capabilities, integrating various sensors and actuators for efficient energy management.",
       tags: ["IoT", "Embedded Systems", "Control Theory"],
-      imageSrc: "/images/project2.jpg",
-      link: "#"
+      imageSrc: "/images/project2.jpeg",
+      link: "https://www.linkedin.com/posts/abdellah-elberkaoui-1a3493195_leadership-engagementaeztudiant-vieassociative-activity-7305163373904551937-nU2B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC3PrksBCkPrd9JsMGdDWh1DajEUF_w_Wkg"
     },
     {
-      title: "PLC-Based Industrial Control",
-      description: "Implemented a PLC-based control system for an industrial manufacturing process, improving efficiency and reducing downtime.",
+      title: "Régulateur de Vitesse pour Moteur à Courant Continu",
+      description: "Ce projet explore la conception et la simulation d'un régulateur de vitesse pour moteur à courant continu, réalisé sur ISIS. Il met en avant les compétences techniques en conception et simulation électronique, avec des applications pratiques pour le contrôle des systèmes électromécaniques, adaptées tant aux usages industriels qu'éducatifs",
       tags: ["PLC", "SCADA", "Industrial Automation"],
-      imageSrc: "/images/project3.jpg",
+      imageSrc: "/images/project3.jpeg",
       link: "#"
     },
     {
       title: "Automated Hydroponics System",
       description: "Created an automated hydroponics system with precise nutrient delivery, environmental monitoring, and remote control capabilities.",
       tags: ["Control Systems", "IoT", "Sensors"],
-      imageSrc: "/images/project4.jpg",
+      imageSrc: "/images/project4.jpeg",
       link: "#"
     },
     {

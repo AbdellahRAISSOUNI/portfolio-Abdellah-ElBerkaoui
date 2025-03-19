@@ -19,7 +19,7 @@ const Header: React.FC = () => {
             />
             <span className="text-2xl font-bold">
               <span className="text-light">Abdellah</span>
-              <span className="text-primary-400">.dev</span>
+              <span className="text-primary-400">ElBerkaoui</span>
             </span>
           </Link>
           // ... rest of the existing code ...

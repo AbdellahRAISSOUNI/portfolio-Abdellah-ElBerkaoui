@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
             />
           </motion.div>
           <span className="text-xl font-bold tracking-tight">
-            Abdellah<span className="text-primary-400">.dev</span>
+            Abdellah<span className="text-primary-400"> ElBerkaoui</span>
           </span>
         </Link>
         
