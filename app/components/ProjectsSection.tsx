@@ -72,6 +72,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             {link && (
               <Link 
                 href={link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center text-sm font-medium text-primary-400 hover:text-primary-300 transition-colors"
               >
                 View Project Details
@@ -93,16 +95,16 @@ const ProjectsSection: React.FC = () => {
   
   const projects = [
     {
-      title: "Freinage d’Urgence Automatisé (AEB)",
-      description: "Ce projet explore le système de Freinage d’Urgence Automatisé (AEB), une technologie clé pour réduire les accidents de la route. L’AEB utilise des capteurs (radars, caméras, lidars), des algorithmes avancés et des systèmes de freinage automatisés pour détecter les obstacles et appliquer les freins en cas de danger imminent. Le rapport analyse son fonctionnement, ses composants techniques, ses performances à travers des tests en laboratoire et simulations MATLAB, et met en évidence son rôle crucial dans la prévention des collisions frontales et la protection des usagers de la route.",
+      title: "Freinage d'Urgence Automatisé (AEB)",
+      description: "Ce projet explore le système de Freinage d'Urgence Automatisé (AEB), une technologie clé pour réduire les accidents de la route. L'AEB utilise des capteurs (radars, caméras, lidars), des algorithmes avancés et des systèmes de freinage automatisés pour détecter les obstacles et appliquer les freins en cas de danger imminent. Le rapport analyse son fonctionnement, ses composants techniques, ses performances à travers des tests en laboratoire et simulations MATLAB, et met en évidence son rôle crucial dans la prévention des collisions frontales et la protection des usagers de la route.",
       tags: ["Robotics", "Arduino", "ROS", "Sensors"],
       imageSrc: "/images/project1.jpeg",
       link: "https://www.linkedin.com/posts/abdellah-elberkaoui-1a3493195_aeb-activity-7306434240315871233-RtBP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC3PrksBCkPrd9JsMGdDWh1DajEUF_w_Wkg",
       featured: true
     },
     {
-      title: "Smart Home Automation System",
-      description: "Developed a comprehensive home automation system with IoT capabilities, integrating various sensors and actuators for efficient energy management.",
+      title: "Coordinateur des Clubs dans l'association des étudiants",
+      description: "En tant que coordinateur des clubs au sein de l'association des étudiants, je supervise 16 clubs dans leurs projets et activités. Mon rôle consiste à harmoniser les initiatives, organiser des événements fédérateurs, et maintenir une communication fluide pour maximiser leur impact sur le campus. Grâce à un soutien personnalisé, nous renforçons l’engagement des membres et créons un environnement propice à l’épanouissement collectif.",
       tags: ["IoT", "Embedded Systems", "Control Theory"],
       imageSrc: "/images/project2.jpeg",
       link: "https://www.linkedin.com/posts/abdellah-elberkaoui-1a3493195_leadership-engagementaeztudiant-vieassociative-activity-7305163373904551937-nU2B?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC3PrksBCkPrd9JsMGdDWh1DajEUF_w_Wkg"
@@ -112,23 +114,16 @@ const ProjectsSection: React.FC = () => {
       description: "Ce projet explore la conception et la simulation d'un régulateur de vitesse pour moteur à courant continu, réalisé sur ISIS. Il met en avant les compétences techniques en conception et simulation électronique, avec des applications pratiques pour le contrôle des systèmes électromécaniques, adaptées tant aux usages industriels qu'éducatifs",
       tags: ["PLC", "SCADA", "Industrial Automation"],
       imageSrc: "/images/project3.jpeg",
-      link: "#"
+      link: "https://www.linkedin.com/posts/abdellah-elberkaoui-1a3493195_aezlectronique-simulation-projetstechniques-activity-7275626587297878016--Isr?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC3PrksBCkPrd9JsMGdDWh1DajEUF_w_Wkg"
     },
     {
-      title: "Automated Hydroponics System",
-      description: "Created an automated hydroponics system with precise nutrient delivery, environmental monitoring, and remote control capabilities.",
+      title: "President du Club CETEC",
+      description: "En tant que président du Club CETEC, je pilote les initiatives pour promouvoir l'échange culturel et célébrer la diversité au sein de notre communauté étudiante. Mon rôle consiste à organiser des événements, ateliers et activités qui favorisent le partage des traditions, renforcent les liens entre étudiants de différents horizons, et créent un espace inclusif pour l’échange interculturel. Grâce à une coordination proactive et un engagement collectif, nous encourageons la compréhension mutuelle, l’ouverture d’esprit et l’épanouissement de chacun dans un environnement multiculturel.",
       tags: ["Control Systems", "IoT", "Sensors"],
       imageSrc: "/images/project4.jpeg",
       link: "#"
     },
-    {
-      title: "Robotic Arm with Computer Vision",
-      description: "Built a 5-DOF robotic arm with computer vision capabilities for object recognition, tracking, and pick-and-place operations.",
-      tags: ["Robotics", "Computer Vision", "Kinematics"],
-      imageSrc: "/images/project5.jpg",
-      link: "#",
-      featured: true
-    }
+
   ];
   
   return (
@@ -192,6 +187,8 @@ const ProjectsSection: React.FC = () => {
         >
           <Link
             href="#contact"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center justify-center px-8 py-3 rounded-lg bg-gradient-to-r from-primary-600 to-secondary-600 text-white font-medium hover:from-primary-500 hover:to-secondary-500 transition-all shadow-lg shadow-primary-500/20"
           >
             Interested in Collaboration?
