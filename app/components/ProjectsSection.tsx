@@ -95,9 +95,9 @@ const ProjectsSection: React.FC = () => {
   
   const projects = [
     {
-      title: "Freinage d'Urgence Automatisé (AEB)",
-      description: "Ce projet explore le système de Freinage d'Urgence Automatisé (AEB), une technologie clé pour réduire les accidents de la route. L'AEB utilise des capteurs (radars, caméras, lidars), des algorithmes avancés et des systèmes de freinage automatisés pour détecter les obstacles et appliquer les freins en cas de danger imminent. Le rapport analyse son fonctionnement, ses composants techniques, ses performances à travers des tests en laboratoire et simulations MATLAB, et met en évidence son rôle crucial dans la prévention des collisions frontales et la protection des usagers de la route.",
-      tags: ["Robotics", "Arduino", "ROS", "Sensors"],
+      title: "Automated Emergency Braking (AEB) by Intelligent Detection ",
+      description: "Design and development of an intelligent emergency braking system integrating multiple sensors, cameras, and advanced image processing techniques. The system enables real-time obstacle detection and automatic braking activation to enhance vehicle safety. MATLAB/Simulink simulations were performed to optimize the system’s reactivity, reliability, and overall performance in autonomous driving scenarios.",
+      tags: ["MATLAB/Simulink", "ultrasonic/infrared sensors", "real-time control systems"],
       imageSrc: "/images/project1.jpeg",
       link: "https://www.linkedin.com/posts/abdellah-elberkaoui-1a3493195_aeb-activity-7306434240315871233-RtBP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC3PrksBCkPrd9JsMGdDWh1DajEUF_w_Wkg",
       featured: true
