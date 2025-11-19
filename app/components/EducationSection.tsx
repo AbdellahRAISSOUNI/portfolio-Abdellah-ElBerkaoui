@@ -64,7 +64,7 @@ const EducationSection: React.FC = () => {
     },
   
     {
-      year: "2011",
+      year: "2021",
       degree: "Baccalaureate in Physical Sciences",
       institution: "High School, Morocco",
       description: "Graduated with honors, specializing in mathematics and physical sciences. Developed foundation in scientific principles and mathematical modeling.",
@@ -74,24 +74,30 @@ const EducationSection: React.FC = () => {
   
   const certifications = [
     { 
-      name: "Robotics Specialization", 
-      issuer: "Coursera - University of Pennsylvania",
-      year: "2023" 
+      name: "Matlab & Simulink & stateflow", 
+      issuer: "MathWorks",
+      year: "2024" 
+    },
+       { 
+      name: "CATIA ", 
+      issuer: "udemy",
+      year: "2025" 
     },
     { 
-      name: "Control of Mobile Robots", 
-      issuer: "Coursera - Georgia Institute of Technology",
-      year: "2022" 
+      name: "Hardware Description Languages for FPGA Design", 
+      issuer: "Coursera - University of Colorado Boulder",
+      year: "2025" 
     },
+ 
     { 
-      name: "Machine Learning for Engineering", 
-      issuer: "edX - MIT",
-      year: "2022" 
-    },
-    { 
-      name: "IoT Fundamentals", 
-      issuer: "Cisco Networking Academy",
+      name: "FPGA Architecture Based System for Industrial Application", 
+      issuer: "Coursera - L&T EduTech",
       year: "2021" 
+    },
+        { 
+      name: "Foundations of IoT Systems and Industrial Automationn", 
+      issuer: "Coursera - LearnQuest",
+      year: "2025" 
     },
   ];
   
