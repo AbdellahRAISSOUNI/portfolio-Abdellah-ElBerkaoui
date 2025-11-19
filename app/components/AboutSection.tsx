@@ -33,8 +33,8 @@ const AboutSection: React.FC = () => {
       )
     },
     {
-      title: "Electrical Engineering",
-      description: "Circuit design, power systems, and electromechanical component integration.",
+      title: "Electronic Engineering",
+      description: "PCB design, sensor integration, and communication protocol implementation.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -42,8 +42,8 @@ const AboutSection: React.FC = () => {
       )
     },
     {
-      title: "Computer Engineering",
-      description: "Embedded systems, programming, and software development for control systems.",
+      title: "Embedded systems Engineering",
+      description: "FPGA design, HDL implementation, and digital architecture optimization, microcontroller programming, and real-time control.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-6 h-6">
           <rect x="2" y="3" width="20" height="14" rx="2" ry="2" strokeWidth="2" />
@@ -53,8 +53,8 @@ const AboutSection: React.FC = () => {
       )
     },
     {
-      title: "Control Systems",
-      description: "Feedback control, automation, PID controllers, and system optimization.",
+      title: "Automation Engineering",
+      description: "PLC programming, ladder logic design, and industrial control systems, real-time automation solutions.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-6 h-6">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
