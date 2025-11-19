@@ -47,10 +47,9 @@ const HeroSection: React.FC = () => {
                 transition={{ duration: 0.5, delay: 0.8 }}
               >
 As a 5th year Mechatronics Engineering student at ENSA Tetouan, I am passionate about designing intelligent systems that merge automation, embedded electronics, and digital technologies.
-
 My academic and project experience has equipped me with strong skills in PLC programming, embedded systems development, digital logic design, and FPGA-based architectures. I enjoy working in multidisciplinary environments where hardware, software, and control systems come together.
-
-I'm particularly interested in industrial automation, embedded systems engineering, and automotive electronics—fields where reliable control, smart sensing, and efficient digital processing drive real innovation.              </motion.p>
+I'm particularly interested in industrial automation, embedded systems engineering, and automotive electronics—fields where reliable control, smart sensing, and efficient digital processing drive real innovation.        
+              </motion.p>
               
               <div className="flex flex-wrap gap-4">
                 <motion.a
