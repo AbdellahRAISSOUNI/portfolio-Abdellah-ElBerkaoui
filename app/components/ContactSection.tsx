@@ -55,7 +55,7 @@ const ContactSection: React.FC = () => {
         </svg>
       ),
       label: 'Email',
-      value: 'abdellah.elberkaoui@example.com',
+      value: 'abdellahelberkaoui48@gmail.com',
       link: 'mailto:abdellah.elberkaoui@example.com'
     },
     {
@@ -65,7 +65,7 @@ const ContactSection: React.FC = () => {
         </svg>
       ),
       label: 'Phone',
-      value: '+212 6XX-XXXXXX',
+      value: '+212 691-837954',
       link: 'tel:+2126XXXXXXXX'
     },
     {
