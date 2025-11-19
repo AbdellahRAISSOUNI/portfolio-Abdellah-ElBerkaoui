@@ -56,21 +56,15 @@ const EducationSection: React.FC = () => {
   
   const educationItems = [
     {
-      year: "2020 - Present",
+      year: "2021 - Present",
       degree: "Engineering Degree in Mechatronics",
       institution: "ENSA Tetouan, Morocco",
       description: "Specialized in mechatronics engineering with focus on robotics, control systems, and automation. Participated in several interdisciplinary projects and research initiatives.",
       delay: 0.1
     },
+  
     {
-      year: "2018 - 2020",
-      degree: "Preparatory Classes for Engineering Schools",
-      institution: "CPGE, Morocco",
-      description: "Intensive two-year program in mathematics, physics, and engineering sciences. Developed strong problem-solving skills and analytical thinking.",
-      delay: 0.3
-    },
-    {
-      year: "2018",
+      year: "2011",
       degree: "Baccalaureate in Physical Sciences",
       institution: "High School, Morocco",
       description: "Graduated with honors, specializing in mathematics and physical sciences. Developed foundation in scientific principles and mathematical modeling.",
