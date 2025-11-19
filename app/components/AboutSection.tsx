@@ -97,7 +97,7 @@ const AboutSection: React.FC = () => {
               <div className="glowing-border rounded-xl overflow-hidden">
                 <div className="bg-dark/80 backdrop-blur-sm p-6 rounded-xl">
                   <p className="text-lg mb-6 text-light/90">
-                    As a 5th year Mechatronics Engineering student at  <span className="text-primary-400 font-medium">ENSA Tetouan</span>,, I specialize in building automation and embedded systems that integrate mechanical design, electronics, and intelligent control.
+                    As a 5th year Mechatronics Engineering student at  <span className="text-primary-400 font-medium">ENSA Tetouan</span>, I specialize in building automation and embedded systems that integrate mechanical design, electronics, and intelligent control.
 Throughout my studies, I have developed expertise in PLC automation (Siemens & Mitsubishi), microcontroller programming (ESP32, STM32), digital signal processing, and FPGA development using HDL. This combination allows me to design high-performance systems that operate in real time with precision and robustness.
 My main interests lie in automotive embedded systems, industrial automation, and smart connected devices—domains where mechatronics plays a central role in creating efficient and scalable solutions. 
                 
