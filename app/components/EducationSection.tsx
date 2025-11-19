@@ -92,7 +92,7 @@ const EducationSection: React.FC = () => {
     { 
       name: "FPGA Architecture Based System for Industrial Application", 
       issuer: "Coursera - L&T EduTech",
-      year: "2021" 
+      year: "2025" 
     },
         { 
       name: "Foundations of IoT Systems and Industrial Automationn", 
